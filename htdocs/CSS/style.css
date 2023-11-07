@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url(../IMG/FONDO4.jpg);
+    font-family: 'Times New Roman', Times, serif;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align:center;
+
+  }
+  header{
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+  }
+  #navprin{
+    
+    width: 100%;
+    position: fixed;
+    z-index: 2;   
+    background-attachment: fixed;
+  }
+  .form-register {
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+    
+  .form-register .botons {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+  .form-register .botons:hover{
+    background: #2667f5;
+  }
+  .col-3{
+    background-color: rgb(228, 224, 224);
+    text-align:justify;
+    border:darkgray 1px solid;
+
+  }
+  .col-3 a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+  .container-fluid{
+    font-size: 19px;
+
+  }
+  .col-3 h5{
+    text-decoration:underline;
+  }
+  .card{
+    
+    background: #24303c;
+    
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+
+  }
+  .contenido{
+    margin-top: 5%;
+   
+  }
+  .col-6{
+    border: 1px solid gray ;
+  }
+  .contenido h1{
+    background-color: white;
+    box-shadow: 5px 3px 20px #000;
+    
+    
+  }
+  #carrera{
+    background-image: url(../IMG/FONDO6.jpg);
+    background-size: cover;
+   
+
+  
+    
+
+
+  }
+  #carrera .col-6{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+   border:  1px solid;
+   box-shadow: 7px 13px 37px #000;
+   background-color: white;
+    
+
+
+  }
+
+  
+  
+.formalumno{
+  text-align: center;
+  width: 50%;
+  background: #24303c;
+  padding: 30px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 1%;
+  border-radius: 9px;
+  font-family: 'calibri';
+  color: white;
+  
+  
+}
+.cuadr{
+  width: 100%;
+  background: #24303c;
+  padding: 5px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  border: 1px solid #1f53c5;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
+}
+.cuadr2{
+  width: 100%;
+  background: #24303c;
+  padding: 5px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  border: 1px solid #1f53c5;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
+}
+.drop-area{
+  border: 1px dashed white;
+  height: 50%;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 5px;
+
+}
+
+.drop-area button{
+  padding: 1px 2px;
+  font-size: 16px;
+  border: 0;
+  outline: none;
+  background-color: #5256ad;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 25%;
+
+ }
+
+.archivos{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+#subircv{
+  padding: 1px 2px;
+  font-size: 20px;
+  border: 0;
+  outline: none;
+  background-color: #5256ad;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+#subircv:hover{
+  background-color:#417dcc;
+}
+footer{
+  background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: white;
+
+}
+
+  
+footer a{
+  text-decoration: none;
+  color: white;
+}
+footer a:hover{
+  color: rgb(189, 185, 185);
+  font-size: 18px;
+
+}
+
+
+
+
+    /* Contenedor general y reset de margin y padding */
+    .expandir * {
+      margin: 0;
+      padding: 0;
+      }
+      .expandir {
+      font-family:Arial, Helvetica, sans-serif;
+      line-height:normal;
+      
+      }
+      /* Las imágenes irán en forma de lista */
+      .expandir ul {
+      padding-top:10px;
+      margin-left:10px;
+      }
+      /* Se hacen flotar los elementos para que queden en línea y se elimina el estilo que podría haber predefinido para listas */
+      .expandir ul li {
+      
+      list-style-type:none;
+      }
+      /* Anulamos estilo predifinido para enlaces en listas */
+      .expandir ul li a {
+        
+      text-decoration:none;
+      }
+      /* Estilo de cada imagen en situación inicial y transición suave */
+      .expandir ul li a img {
+      width:60px; /* Ancho inicial imagénes. 50% real */
+      height:60px; /* Alto inicial imagénes. 50% real */
+      border:none;
+      -webkit-transition: all .3s ease-in;
+      -moz-transition: all .3s ease-in;
+      -o-transition: all .3s ease-in;
+      -ms-transition: all .3s ease-in;
+      transition: all .3s ease-in;
+      }
+      /* El texto que acompaña a las imágenes no se ve inicialmente */
+      .expandir ul li a span {
+      display:none;
+      }
+      /* Mostramos el texto al hacer hover */
+      .expandir ul li:hover a span {
+      display:block;
+      font-size:14px;
+      text-align:center;
+      color:white;
+      }
+      /* Agrandamos la imagen al hacer hover */
+      .expandir ul li:hover a img {
+      width:80px;
+      height:80px;
+      -webkit-transition: all .3s ease-in-out;
+      -moz-transition: all .3s ease-in-out;
+      -o-transition: all .3s ease-in-out;
+      -ms-transition: all .3s ease-in-out;
+      transition: all .3s ease-in-out;
+      }
+
+
+
+
+
+
+
+      /* Contenedor general y reset de margin y padding */
+      #prueba{
+        background: #000428;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        height:155px;
+        width: 100%;
+      }
+    .expandir1 * {
+      margin: 8px;
+      text-align: center;
+      padding: 0;
+      }
+      .expandir1 {
+      font-family:Arial, Helvetica, sans-serif;
+      line-height:normal;
+      margin:20px auto 10px;
+      }
+      /* Las imágenes irán en forma de lista */
+      .expandir1 ul {
+       
+      padding-top:5px;
+      margin-left:5px;
+      }
+      /* Se hacen flotar los elementos para que queden en línea y se elimina el estilo que podría haber predefinido para listas */
+      .expandir1 ul li {
+        float:left;
+      list-style-type:none;
+      }
+      /* Anulamos estilo predifinido para enlaces en listas */
+      .expandir1 ul li a {
+        
+        
+      text-decoration:none;
+      }
+      /* Estilo de cada imagen en situación inicial y transición suave */
+      .expandir1 ul li a img {
+      width:58px; /* Ancho inicial imagénes. 50% real */
+      height:58px; /* Alto inicial imagénes. 50% real */
+      border:none;
+      -webkit-transition: all .3s ease-in;
+      -moz-transition: all .3s ease-in;
+      -o-transition: all .3s ease-in;
+      -ms-transition: all .3s ease-in;
+      transition: all .3s ease-in;
+      }
+      /* El texto que acompaña a las imágenes no se ve inicialmente */
+      .expandir1 ul li a span {
+      display:none;
+      }
+      /* Mostramos el texto al hacer hover */
+      .expandir1 ul li:hover a span {
+      display:block;
+      font-size:14px;
+      text-align:center;
+      color:white;
+      }
+      /* Agrandamos la imagen al hacer hover */
+      .expandir1 ul li:hover a img {
+      width:80px;
+      height:80px;
+      -webkit-transition: all .3s ease-in-out;
+      -moz-transition: all .3s ease-in-out;
+      -o-transition: all .3s ease-in-out;
+      -ms-transition: all .3s ease-in-out;
+      transition: all .3s ease-in-out;
+      }
+     
+#asociadas{
+  text-decoration: underline;
+  
+}
+
+.carousel img{
+  height: 400px;
+  width:100%;
+  padding:20px;
+} 
+
+
+
+
